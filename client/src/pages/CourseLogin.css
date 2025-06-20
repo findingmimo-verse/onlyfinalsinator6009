@@ -1,0 +1,61 @@
+.course-login-container {
+    background-color: #f9f9e7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+  
+  .course-login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px; 
+  }
+  
+  .course-login-form label {
+    font-weight: bold;
+    font-size: 16px;
+    align-self: flex-start;
+    margin-left: 8px;
+  }
+  
+  .course-login-form input {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #c6c6c6;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+  }
+  
+  .course-login-form input::placeholder {
+    color: #f0f0f0;
+  }
+  
+  .course-login-form button {
+    padding: 12px 32px;
+    background-color: #3d6f8f;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .course-login-form button:hover {
+    background-color: #325d78;
+  }
+  
+  
