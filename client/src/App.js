@@ -10,8 +10,8 @@ import CourseLogin from './pages/CourseLogin';
 function App() {
   return (
     <Router>
-      <div className="App">
-        {/* Navigation */}
+      <div className="App"> 
+        {/* Navigationv */}
         <nav>
           <ul>
             <li><a href="/">Login</a></li>
@@ -19,7 +19,7 @@ function App() {
             <li><a href="/character">Character</a></li>
           </ul>
         </nav>
-
+      
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Login />} />
