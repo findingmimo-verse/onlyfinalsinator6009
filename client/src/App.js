@@ -6,7 +6,7 @@ import Login from './pages/Login';
 import CourseLogin from './pages/CourseLogin';
 import Character from './pages/Character';
 import Map from './pages/Map';
-
+import GpaTracker from './pages/GpaTracker';
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
           <Route path="/courselogin" element={<CourseLogin />} />
           <Route path="/character" element={<Character />} />
           <Route path="/map" element={<Map />} />
+          <Route path="/gpa" element={<GpaTracker />} />
         </Routes>
     </Router>
   );
